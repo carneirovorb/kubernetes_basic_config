@@ -1,0 +1,26 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /Users/vorb/opt/anaconda3/bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/Users/vorb/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vorb/opt/anaconda3/bin:/Users/vorb/.zinit/polaris/bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/Users/vorb/.composer/vendor/bin:/Users/vorb/Library/Android/sdk/emulator:/Users/vorb/Library/Android/sdk/tools:/Users/vorb/Library/Android/sdk/tools/bin:/Users/vorb/Library/Android/sdk/platform-tools:/Users/vorb/Library/Android/sdk/emulator:/Users/vorb/Library/Android/sdk/tools:/Users/vorb/Library/Android/sdk/tools/bin:/Users/vorb/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile '/Users/vorb/Library/Caches/Yarn/v6/npm-bytes-3.1.0-f6cf7933a360e0588fa9fde85651cdc7f805d1f6-integrity/node_modules/bytes/History.md' -> '/Volumes/Data/git/pessoal/kubernetes_basic_start/node_modules/bytes/History.md'
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

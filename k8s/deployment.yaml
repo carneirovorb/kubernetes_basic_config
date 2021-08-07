@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodeserver
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: server
+  template: 
+    metadata:
+      labels: 
+        app: server
+    spec:
+      containers: 
+        - name: nodeserver
+          image: carneirovorb/k8s_test:v2
+          ports:
+            - containerPort: 3000
